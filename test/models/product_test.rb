@@ -35,7 +35,7 @@ class ProductTest < ActiveSupport::TestCase
       price: 1
     ).tap do |product|
       product.image.attach(
-      io: File.open("db/images/#{filename}"), filename:, content_type:)
+      io: File.open("test/fixtures/files/#{filename}"), filename:, content_type:)
     end
   end
 
