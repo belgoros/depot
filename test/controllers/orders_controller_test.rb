@@ -11,7 +11,9 @@ class OrdersControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get new" do
+    post line_items_url, params: { product_id: products(:pragprog).id }
     get new_order_url
+
     assert_response :success
   end
 
@@ -44,5 +46,11 @@ class OrdersControllerTest < ActionDispatch::IntegrationTest
     end
 
     assert_redirected_to orders_url
+  end
+
+  test "requires item in cart" do
+    get new_order_url
+    assert_redirected_to store_index_path
+    assert_equal "Your cart is empty", flash[:notice]
   end
 end
