@@ -28,7 +28,7 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
       }
     end
 
-    assert_redirected_to user_url(User.last)
+    assert_redirected_to users_url
   end
 
   test "should show user" do
@@ -50,7 +50,7 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
         password_confirmation: "secret"
       }
     }
-    assert_redirected_to user_url(@user)
+    assert_redirected_to users_url
   end
 
   test "should destroy user" do
