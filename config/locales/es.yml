@@ -1,4 +1,5 @@
 es:
+  thanks: "Gracias por su pedido"
   activerecord:
     models:
       order: "pedido"
