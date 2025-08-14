@@ -1,0 +1,18 @@
+es:
+  layouts:
+    application:
+      title: "Biblioteca de Pragmatic"
+      home: "Inicio"
+      questions: "Preguntas"
+      news: "Noticias"
+      contact: "Contacto"
+  store:
+    index:
+      title_html: "Tu Catálogo Pragmatic"
+    product:
+      add_html: "Añadir al Carrito"
+  carts:
+    cart:
+      title: "Carrito de la Compra"
+      empty: "Vaciar Carrito"
+      checkout: "Comprar"
