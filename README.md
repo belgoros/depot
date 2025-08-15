@@ -1,24 +1,3 @@
-# README
+# DEPOT
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is a depot web application built with Ruby in Rails 8.0 when following the book by Pragmatic Programmers ["Agile Web Development with Rails 8"](https://pragprog.com/titles/rails8/agile-web-development-with-rails-8/).
